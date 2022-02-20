@@ -1,0 +1,14 @@
+{
+  "name": "skill",
+  "version": "1.0.0",
+  "description": "this is a skill sheet",
+  "main": "index.js",
+  "scripts": {
+    "skill": "json-server --watch db.json --port 4040"
+  },
+  "author": "shamim",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
